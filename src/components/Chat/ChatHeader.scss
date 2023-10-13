@@ -1,0 +1,64 @@
+/**************************************************************
+
+
+
+***************************************************************/
+
+.chatHeader{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // position: absolute;
+}
+
+
+// 左
+.chatHeaderLeft{
+  
+}
+
+.chatHeaderHash{
+  padding-right: 7px;
+  color: #7b7c85;
+}
+
+.chatHeaderLeft > h3{
+  color: white;
+}
+
+// 右
+.chatHeaderRight{
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  color: #7b7c85;
+}
+
+.chatHeaderSearch{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background: #40404a;
+  border-radius: 3px;
+}
+
+.chatHeaderSearch > input{  // > 直下のみ
+  margin-right: 5px;
+  // font-size: 12px;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.chatHeaderRight .MuiSvgIcon-root{
+  // color: white;
+  cursor: pointer;
+}
+

@@ -1,0 +1,57 @@
+/**************************************************************
+
+
+
+***************************************************************/
+
+.chatInput{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 20px;
+  width: 100%;
+
+  background: #474b53;
+  color: lightgray;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+
+  // position:absolute;
+}
+
+
+.chatInput > .addCircleOutlineIcon{
+  margin-right: 10px;
+}
+
+
+.chatInputForm{
+  width: 100%;
+  // background: #40404a;
+}
+
+.chatInputForm > input{
+  padding: 5px;
+  width: 100%;
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+// 表示は消すが、機能だけは使える。Enterキーを使える
+.chatInputForm > button{
+  display: none;
+}
+
+
+.chatInputIcons{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chatInputIcons .MuiSvgIcon-root:not(:first-child){
+  margin-left: 20px;
+}

@@ -1,0 +1,30 @@
+/**************************************************************
+
+
+
+***************************************************************/
+
+
+.chat{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 100vh;
+
+  background: #333;
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  // position: relative;
+
+  
+}
+
+.chatMessages{
+  overflow-y: scroll;
+  flex: 1;
+}

@@ -1,0 +1,25 @@
+/**************************************************************
+
+
+
+***************************************************************/
+
+.chatMessage{
+  padding: 15px;
+  // flex: 1 1 auto; // flex-grow flex-shrink flex-basis 一括プロパティ
+  color: #ffffff;
+
+  display: flex;
+}
+
+.chatMessage > .avatar{
+  margin-right: 10px;
+}
+
+.messageInfo{
+  flex: 1;
+}
+
+.messageInfo .chatContent{
+  padding-top: 5px;
+}
